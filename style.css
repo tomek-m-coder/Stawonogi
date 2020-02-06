@@ -1,0 +1,171 @@
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+header{
+  height: 15vh;
+  margin: 0 auto;
+}
+
+h2{
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+h3{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+h4{
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+p em{
+  color: darkred;
+}
+
+#home a, #pajeczaki a, #owady a, #skorupiaki a{
+  color: black;
+}
+
+
+#home a:hover, #pajeczaki a:hover, #owady a:hover, #skorupiaki a:hover{
+  color: darkred;
+}
+
+header ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li{
+  line-height: 4;
+}
+
+header ul li a{
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #191970;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 1rem;
+  box-shadow: 2px 2px 30px 10px;
+}
+
+header ul li a:hover{
+  color: #ddd;
+}
+
+section{
+  height: 185vh;
+  padding: 2rem 0 0 1rem;
+  font-size: 1.2rem;
+}
+
+iframe{
+  border: 10px solid rgb(86, 88, 154);
+  border-radius: 20px;
+}
+
+#pajeczaki iframe{
+  float: right;
+  margin-top: -14%;
+  margin-right: 5%;
+}
+
+#home, #owady, #skorupiaki, header, footer{
+  background: linear-gradient(90deg, #999, rgba(0, 0, 255, 0.3));
+}
+
+#pajeczaki{
+  background: url('spider.svg') no-repeat, linear-gradient(90deg, #999, rgba(0, 0, 255, 0.3));
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#pajeczaki #spider{
+  width: 20%;
+  border-radius: 50%;
+  float: right;
+  margin: 2.5% 50% 0 0;
+}
+
+#pajeczaki em{
+  color: darkred;
+}
+
+#home{
+  height: 90vh;
+}
+
+#home ul li, #pajeczaki ul li, #owady ul li, #skorupiaki ul li{
+  list-style-type: "\1F44D";
+  line-height: 1.5;
+}
+
+#owady{
+  background: url('btf.svg') no-repeat, linear-gradient(90deg, #999, rgba(0, 0, 255, 0.3));
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#owady img{
+  min-width: 35%;
+  max-width: 50%;
+}
+
+.owady{
+  float: left;
+  max-width: 26vw;
+}
+
+.owady p{
+  padding: 2.5rem;
+}
+
+#motyl{
+padding-bottom: 1.8rem;
+}
+
+#modliszka{
+  padding-bottom: 1.1rem;
+}
+
+#owady iframe{
+  float: right;
+  margin-top: -50%;
+  margin-right: 10%;
+}
+
+#skorupiaki{
+  height: 140vh;
+  background: url('crab.svg') no-repeat, linear-gradient(90deg, #999, rgba(0, 0, 255, 0.3));
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+#skorupiaki iframe{
+  float: right;
+  margin-top: -40%;
+  margin-right: 20%;
+}
+
+footer{
+  text-align: center;
+  line-height: 1rem;
+  padding: 1.5rem;
+}
+
+.clearfix{
+  clear: both;
+}
